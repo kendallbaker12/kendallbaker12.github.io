@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Utah fishing</title>
+         <link rel="stylesheet" href="client/style.css"> 
+    </head>
+    <body>
+        <h1>Utah fishing </h1>
+        <p>Utah has some awesome fishing! Whether it be on a pond,lake,or river.</p>
+        <p>There is something for everyone!</p>
+        <div id="fishing_guide"></div>
+        <div id ="sign_in">
+            User email:
+            <input type="text" id ="login_email"><br>
+            User password:
+            <input type="password" id ="login_pass_word"><br>
+            <button id="sign_in_button">Log In!</button>
+            <p id="errormessage2">User name or password is invalid. Try again!</p>
+            <p id="correctmessage">Thank you for signing up please login now!</p>
+            <hr />
+        </div>
+        <div id = "sign_up">
+            User first name:
+            <input type="text" id ="first_name"><br>
+            User last name:
+            <input type="text" id ="last_name"><br>
+            User email:
+            <input type="text" id ="email"><br>
+            User password:
+            <input type="text" id ="pass_word"><br>
+            User Fav Locations:
+            <input type="text" id ="fav_locations"><br>
+            <button id="user_sign_up">Sign up!</button>
+           
+            <p id="errormessage">Please use an email that is not in use, or head to the login page.</p>
+            <hr />
+        </div>
+            <div id = "location_table">
+                Where did you go fishing?:
+                <input type="text" id ="location_name"><br>
+                What type of water did you fish in? pond,lake,river,etc..: 
+                <input type="text" id ="water"><br>
+                Which species of fish did you catch?:
+                <input type="text" id="species"><br>
+                Which method did you use to catch the fish?:
+                <input type="text" id="methods"><br>
+                Is this location available year round?
+                <input type="text" id="year_round"><br>
+                <button id="location">Add to your locations! </button>
+            </div>
+            <hr />
+            <div>
+                <ol id="location_list"></ol>
+            </div>
+        <script src="client/project4main.js"></script>
+    </body>
+</html>

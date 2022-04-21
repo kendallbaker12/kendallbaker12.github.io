@@ -1,0 +1,62 @@
+body{
+    background-color: gainsboro;
+
+}
+p{
+    text-align: center;
+}
+#fishing_guide{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+#sign_in,#sign_up{
+    text-align: center;
+    padding: 25px;
+    background-color: darkgray;
+}
+#errormessage{
+    color: red;
+    display: none;
+}
+#errormessage2{
+    color: red;
+    display: none;
+}
+#correctmessage{
+    color: green;
+    display: none;
+}
+ol li {
+    image-orientation: from-image;
+    text-align: left;
+    list-style-type: disc;
+    marker-start: initial;
+  }
+
+#location_table{
+    text-align: center;
+    padding: 25px;
+    background-color: darkgray;
+    
+
+}
+#location_name,#water,#species,#methods,#year_round,#login_email,#login_pass_word,#first_name,#last_name
+,#email,#pass_word,#fav_locations{
+    background: bisque;
+
+}
+#location,#sign_in_button,#user_sign_up{
+    font: message-box;
+    color: white;
+    background-color: black;
+}
+#location_list{
+    font: message-box;
+}
+button{
+    font: message-box;
+    color: white;
+    background-color: black;
+}
